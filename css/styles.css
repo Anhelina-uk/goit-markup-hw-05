@@ -548,6 +548,7 @@ img {
   flex-direction: column;
 }
 .input-login {
+  padding-left: 16px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -574,8 +575,15 @@ img {
   justify-content: center;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
 }
-
+.svg-button-login {
+  margin-left: 16px;
+}
 /*backdrop*/
 .backdrop {
   position: fixed;
