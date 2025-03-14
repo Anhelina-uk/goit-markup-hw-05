@@ -548,7 +548,6 @@ img {
   flex-direction: column;
 }
 .input-login {
-  padding-left: 16px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -562,9 +561,7 @@ img {
   color: #ffffff;
   place-content: color #ffffff;
 }
-.login-form .input-login {
-  padding: 4px;
-}
+
 .button-form-login {
   border-radius: 4px;
   padding: 8px 24px;
