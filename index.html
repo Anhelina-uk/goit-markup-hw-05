@@ -508,13 +508,13 @@
             <div class="modal-form-input-cont">
               <input
                 class="modal-form-input"
-                required
+                required="tel"
                 id="user-tel"
                 title="+380909090909"
-                pattern="[A-Za-zА-Яа-я-їЇєЄ]{15}"
+                pattern="[tel]+[0-9]{12}"
                 name="user-tel"
-                placeholder="+380909090909"
-                type="phone"
+                placeholder="number"
+                type="tel"
               />
               <svg width="12" height="12" class="model-form-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -553,9 +553,9 @@
             <input
               type="checkbox"
               class="checkbox visually-hidden"
-              id="ser-checkbox"
+              id="user-checkbox"
             />
-            <label class="label-checkbox" for="user-checkbox">
+            <label class="label-checkbox" id="" for="user-checkbox">
               <span class="custom-checkbox">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-cheked"></use>
