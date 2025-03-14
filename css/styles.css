@@ -523,6 +523,34 @@ img {
   width: 40px;
 }
 
+.container-login-form {
+}
+
+.sub-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.login-form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.login-form label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 4px;
+}
+
 /*backdrop*/
 .backdrop {
   position: fixed;
