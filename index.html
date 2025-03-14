@@ -474,23 +474,28 @@
           </ul>
         </div>
         <div class="container-login-form">
-         <p class="sub-text">Subscribe</p>
-        <form class="login-form">
-          <label class="label-login" >
-            <input class="input-login" type="email" name="email" placeholder="E-mail"></input>
-          </label>
-          <button class="button-form-login" type="submit">Subscribe
-            <svg class="svg-button-login" width="24" height="24">
-              <use href="./images/icons.svg#send"></use>
-            </svg>
-          </button>
-        </form>
+          <p class="sub-text">Subscribe</p>
+          <form class="login-form">
+            <label class="label-login">
+              <input
+                class="input-login"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button-form-login" type="submit">
+              Subscribe
+              <svg class="svg-button-login" width="24" height="24">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-      </div>
-      
     </footer>
     <!--backdrop-->
-  <div class="backdrop is-open">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
@@ -521,8 +526,8 @@
             <label class="modal-form-label" for="user-tel">Phone</label>
             <div class="modal-form-input-cont">
               <input
+                required
                 class="modal-form-input"
-                required="tel"
                 id="user-tel"
                 title="+380909090909"
                 pattern="[tel]+[0-9]{12}"
@@ -554,8 +559,9 @@
           </div>
           <div class="modal-container-textarea">
             <label class="modal-form-label" for="user-comment">Comment</label>
-            <textarea rows="50"
-              resize="none"
+            <textarea
+              rows="50"
+              autocomplete="on"
               class="modal-form-textarea"
               required
               id="user-comment"
@@ -572,7 +578,7 @@
               value="true"
               name="user-privacy"
             />
-            <label class="label-checkbox"  for="user-privacy">
+            <label class="label-checkbox" for="user-privacy">
               <span class="custom-checkbox">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-cheked"></use>
