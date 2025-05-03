@@ -609,9 +609,9 @@ ul {
   justify-content: center;
   align-items: center;
   position: absolute;
+  fill: #2e2f42;
 }
 .modal-form-svg {
-  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-btn:hover,
