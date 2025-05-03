@@ -507,6 +507,7 @@ ul {
 }
 .footer-input {
   display: flex;
+  gap: 24px;
 }
 .footer-input-email {
   font-weight: 400;
@@ -537,6 +538,8 @@ ul {
   padding: 8px 24px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 165px;
 }
 .footer-input-img {
   fill: #ffffff;
